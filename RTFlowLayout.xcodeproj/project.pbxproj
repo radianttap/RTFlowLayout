@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0A40248163806DB004887EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A40247163806DB004887EF /* UIKit.framework */; };
+		D0A4024A163806DB004887EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A40249163806DB004887EF /* Foundation.framework */; };
+		D0A4024C163806DB004887EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A4024B163806DB004887EF /* CoreGraphics.framework */; };
+		D0A40252163806DC004887EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0A40250163806DC004887EF /* InfoPlist.strings */; };
+		D0A40254163806DC004887EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A40253163806DC004887EF /* main.m */; };
+		D0A40258163806DC004887EF /* RTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A40257163806DC004887EF /* RTAppDelegate.m */; };
+		D0A4025A163806DC004887EF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A40259163806DC004887EF /* Default.png */; };
+		D0A4025C163806DC004887EF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A4025B163806DC004887EF /* Default@2x.png */; };
+		D0A4025E163806DC004887EF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A4025D163806DC004887EF /* Default-568h@2x.png */; };
+		D0A40261163806DC004887EF /* RTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A40260163806DC004887EF /* RTViewController.m */; };
+		D0A40264163806DC004887EF /* RTViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0A40262163806DC004887EF /* RTViewController_iPhone.xib */; };
+		D0A40267163806DC004887EF /* RTViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0A40265163806DC004887EF /* RTViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0A40243163806DB004887EF /* RTFlowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTFlowLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A40247163806DB004887EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0A40249163806DB004887EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0A4024B163806DB004887EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0A4024F163806DC004887EF /* RTFlowLayout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RTFlowLayout-Info.plist"; sourceTree = "<group>"; };
+		D0A40251163806DC004887EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0A40253163806DC004887EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0A40255163806DC004887EF /* RTFlowLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RTFlowLayout-Prefix.pch"; sourceTree = "<group>"; };
+		D0A40256163806DC004887EF /* RTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTAppDelegate.h; sourceTree = "<group>"; };
+		D0A40257163806DC004887EF /* RTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTAppDelegate.m; sourceTree = "<group>"; };
+		D0A40259163806DC004887EF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D0A4025B163806DC004887EF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D0A4025D163806DC004887EF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D0A4025F163806DC004887EF /* RTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTViewController.h; sourceTree = "<group>"; };
+		D0A40260163806DC004887EF /* RTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTViewController.m; sourceTree = "<group>"; };
+		D0A40263163806DC004887EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RTViewController_iPhone.xib; sourceTree = "<group>"; };
+		D0A40266163806DC004887EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RTViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0A40240163806DB004887EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A40248163806DB004887EF /* UIKit.framework in Frameworks */,
+				D0A4024A163806DB004887EF /* Foundation.framework in Frameworks */,
+				D0A4024C163806DB004887EF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0A40238163806DB004887EF = {
+			isa = PBXGroup;
+			children = (
+				D0A4024D163806DC004887EF /* RTFlowLayout */,
+				D0A40246163806DB004887EF /* Frameworks */,
+				D0A40244163806DB004887EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0A40244163806DB004887EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0A40243163806DB004887EF /* RTFlowLayout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0A40246163806DB004887EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0A40247163806DB004887EF /* UIKit.framework */,
+				D0A40249163806DB004887EF /* Foundation.framework */,
+				D0A4024B163806DB004887EF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0A4024D163806DC004887EF /* RTFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D0A40256163806DC004887EF /* RTAppDelegate.h */,
+				D0A40257163806DC004887EF /* RTAppDelegate.m */,
+				D0A4025F163806DC004887EF /* RTViewController.h */,
+				D0A40260163806DC004887EF /* RTViewController.m */,
+				D0A40262163806DC004887EF /* RTViewController_iPhone.xib */,
+				D0A40265163806DC004887EF /* RTViewController_iPad.xib */,
+				D0A4024E163806DC004887EF /* Supporting Files */,
+			);
+			path = RTFlowLayout;
+			sourceTree = "<group>";
+		};
+		D0A4024E163806DC004887EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0A4024F163806DC004887EF /* RTFlowLayout-Info.plist */,
+				D0A40250163806DC004887EF /* InfoPlist.strings */,
+				D0A40253163806DC004887EF /* main.m */,
+				D0A40255163806DC004887EF /* RTFlowLayout-Prefix.pch */,
+				D0A40259163806DC004887EF /* Default.png */,
+				D0A4025B163806DC004887EF /* Default@2x.png */,
+				D0A4025D163806DC004887EF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0A40242163806DB004887EF /* RTFlowLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0A4026A163806DC004887EF /* Build configuration list for PBXNativeTarget "RTFlowLayout" */;
+			buildPhases = (
+				D0A4023F163806DB004887EF /* Sources */,
+				D0A40240163806DB004887EF /* Frameworks */,
+				D0A40241163806DB004887EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTFlowLayout;
+			productName = RTFlowLayout;
+			productReference = D0A40243163806DB004887EF /* RTFlowLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0A4023A163806DB004887EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Aleksandar Vacić";
+			};
+			buildConfigurationList = D0A4023D163806DB004887EF /* Build configuration list for PBXProject "RTFlowLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0A40238163806DB004887EF;
+			productRefGroup = D0A40244163806DB004887EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0A40242163806DB004887EF /* RTFlowLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0A40241163806DB004887EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A40252163806DC004887EF /* InfoPlist.strings in Resources */,
+				D0A4025A163806DC004887EF /* Default.png in Resources */,
+				D0A4025C163806DC004887EF /* Default@2x.png in Resources */,
+				D0A4025E163806DC004887EF /* Default-568h@2x.png in Resources */,
+				D0A40264163806DC004887EF /* RTViewController_iPhone.xib in Resources */,
+				D0A40267163806DC004887EF /* RTViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0A4023F163806DB004887EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A40254163806DC004887EF /* main.m in Sources */,
+				D0A40258163806DC004887EF /* RTAppDelegate.m in Sources */,
+				D0A40261163806DC004887EF /* RTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0A40250163806DC004887EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0A40251163806DC004887EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0A40262163806DC004887EF /* RTViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0A40263163806DC004887EF /* en */,
+			);
+			name = RTViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		D0A40265163806DC004887EF /* RTViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0A40266163806DC004887EF /* en */,
+			);
+			name = RTViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0A40268163806DC004887EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0A40269163806DC004887EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0A4026B163806DC004887EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTFlowLayout/RTFlowLayout-Prefix.pch";
+				INFOPLIST_FILE = "RTFlowLayout/RTFlowLayout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0A4026C163806DC004887EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTFlowLayout/RTFlowLayout-Prefix.pch";
+				INFOPLIST_FILE = "RTFlowLayout/RTFlowLayout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0A4023D163806DB004887EF /* Build configuration list for PBXProject "RTFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A40268163806DC004887EF /* Debug */,
+				D0A40269163806DC004887EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0A4026A163806DC004887EF /* Build configuration list for PBXNativeTarget "RTFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A4026B163806DC004887EF /* Debug */,
+				D0A4026C163806DC004887EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0A4023A163806DB004887EF /* Project object */;
+}
